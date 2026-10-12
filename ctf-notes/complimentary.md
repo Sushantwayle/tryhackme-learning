@@ -43,3 +43,20 @@ Flags, credentials, tokens, and sensitive challenge data are not included.
 ## Further Learning
 Continue practicing secure web application analysis and
 cloud identity security.
+## Technical Concepts Learned
+
+### 1. Client-Side JavaScript
+JavaScript runs in the browser and can reveal how a web application handles user interactions and application data.
+
+### 2. Browser Local Storage
+Local Storage allows a website to store data in the browser. Data stored there should not be trusted for authorization decisions.
+
+### 3. Authentication vs Authorization
+Authentication verifies identity, while authorization determines which resources or actions that identity is allowed to access.
+
+### 4. Cloud Identity and Permissions
+Cloud applications should use properly configured identity policies and access permissions to protect data and services.
+
+## Reflection
+
+This challenge helped me understand the importance of inspecting client-side application behavior and reviewing browser storage and cloud identity configurations.
